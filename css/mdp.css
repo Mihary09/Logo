@@ -1,0 +1,97 @@
+/* TODO : reinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #fafafafa;
+    overflow: hidden;
+}
+
+/* * début */
+
+form {
+    width: 380px; /* Légèrement plus large */
+    padding: 30px; /* Plus d'espace interne */
+    margin-left: calc((100% - 360px) / 2);
+    margin-top: 140px; /* Ajustement de l'espacement supérieur */
+    border-radius: 6px; /* Coins légèrement plus arrondis */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+h1 {
+    font-size: 28px; /* Augmentation légère du titre */
+    margin-bottom: 20px; /* Plus d'espace en dessous du titre */
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+}
+
+label {
+    font-size: 15px; /* Texte légèrement plus grand */
+    margin-bottom: 15px; /* Plus d'espacement sous le label */
+}
+
+.mail {
+    margin-bottom: 00px;
+}
+
+.email1 {
+    margin-bottom: 20px;
+}
+
+.mail2{
+    margin-bottom: 10px;
+}
+
+input {
+    width: 98%; /* Ajustement pour éviter qu'il touche les bords */
+    height: 40px; /* Taille un peu plus grande pour plus de confort */
+    margin-bottom: 20px; /* Plus d'espacement entre les champs */
+    padding: 5px;
+    font-size: 15px; /* Texte un peu plus grand dans les champs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-indent: 5px;
+}
+
+/* BOUTTON ANNULER ET RECHERCHER */
+.button-container {
+    display: flex; /* Aligne les boutons côte à côte */
+    justify-content: space-between; /* Espace uniforme entre les boutons */
+    gap: 20px; /* Espace entre les boutons légèrement augmenté */
+  
+}
+
+button {
+    width: 125px; /* Largeur des boutons légèrement augmentée */
+    height: 42px; /* Hauteur ajustée pour un confort visuel */
+    font-size: 16px; /* Texte légèrement plus grand */
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.annuler {
+    margin-left: 120px;
+}
+
+button:hover {
+    background-color: chocolate; /* Couleur d'interaction subtile */
+}
+

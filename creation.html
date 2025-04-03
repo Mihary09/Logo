@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un Compte</title>
+    <!-- liaison css -->
+    <link rel="stylesheet" href="css/creation.css">
+</head>
+<body>
+    <form>
+        <h1>Créer un compte</h1>
+        <hr>
+        <input type="text" placeholder="prénom" class="name">
+        <input type="text"placeholder="Nom de famille" class="surname"> <br>
+        <label class="date-label">Date de naissance</label>
+        <div class="date-container">
+            <select name="day" class="day">
+                <option value="" disabled selected>Jour</option>
+                <!-- Jours de 1 à 31 -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">5</option>
+                <option value="3">6</option>
+                <option value="3">7</option>
+                <option value="3">8</option>
+                <option value="3">9</option>
+                <option value="3">10</option>
+                <option value="3">11</option>
+                <option value="3">12</option>
+                <option value="3">13</option>
+                <option value="3">14</option>
+                <option value="3">15</option>
+                <option value="3">16</option>
+                <option value="3">17</option>
+                <option value="3">18</option>
+                <option value="3">19</option>
+                <option value="3">20</option>
+                <option value="3">21</option>
+                <option value="3">22</option>
+                <option value="3">23</option>
+                <option value="3">24</option>
+                <option value="3">25</option>
+                <option value="3">26</option>
+                <option value="3">27</option>
+                <option value="3">28</option>
+                <option value="3">29</option>
+                <option value="3">30</option>
+                <option value="3">31</option>
+            </select>
+
+            <select name="month" class="month">
+                <option value="" disabled selected>Mois</option>
+                <option value="1">Jan</option>
+                <option value="2">Fév</option>
+                <option value="3">Mar</option>
+                <option value="4">Avr</option>
+                <option value="4">Mai</option>
+                <option value="4">Juin</option>
+                <option value="4">Juil</option>
+                <option value="4">Août </option>
+                <option value="4">Sep</option>
+                <option value="4">Oct</option>
+                <option value="4">Nov</option>
+                <option value="4">Déc</option>
+            </select>
+
+            <select name="year" class="year">
+                <option value="" disabled selected>Année</option>
+                <!-- Liste des années -->
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <!-- Continue à ajouter les années nécessaires -->
+            </select>
+        </div> <br>
+
+        <label class="genre">Genre </label>
+        <div class="radio-container">
+            <label>
+                <input type="radio" name="gender" value="female">
+                Femme
+            </label>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Homme
+            </label>
+        </div>
+        
+        <input type="email" placeholder="Votre adresse email" class="email"> <br>
+        
+        <input type="password" placeholder="Votre nouveau mot de passe" class="password"> 
+
+        
+        <div class="button-container">
+            
+            <button class="inscrire">S'inscrire</button>
+            <button>Vous avez déjà un compte?</button>
+        </div>
+    </form>
+    
+</body>
+</html>

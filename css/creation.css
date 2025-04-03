@@ -1,0 +1,128 @@
+/* TODO : reinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* * début */
+html, body {
+    height: 100%; /* Pour s'assurer que la hauteur prend toute la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+    display: flex; /* Active le mode flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    background-color: #f7f7f7; /* Couleur de fond douce */
+    font-family: 'Arial', sans-serif; /* Police élégante et lisible */
+}
+
+form {
+    width: 400px; /* Largeur du formulaire */
+    padding: 20px; /* Ajoute de l'espace interne au formulaire */
+    border: 1px solid #ccc; /* Bordure fine et grise */
+    border-radius: 8px; /* Coins arrondis pour un style moderne */
+    background-color: #fff; /* Fond blanc pour le formulaire */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner un effet 3D */
+}
+
+form input {
+    margin-bottom: 20px; /* Ajoute un espacement en dessous de chaque champ */
+}
+
+h1 {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+label {
+    display: block; /* Assure que le label occupe une ligne entière */
+    margin-bottom: 10px; /* Augmente l'espacement en dessous du label */
+    margin-top: 10px; /* Ajoute un espacement au-dessus si nécessaire */
+    font-size: 15px; /* Taille de police élégante et lisible */
+    color: #333; /* Couleur professionnelle */
+    font-weight: bold; /* Met en valeur les labels */
+}
+
+/* cote à cote radio button*/
+.radio-container {
+    display: flex; /* Aligne les éléments côte à côte homme et femme*/
+    gap: 20px; /* Ajoute de l'espace entre les options */
+    margin-bottom: 15px; /* Espacement avec les autres éléments */
+}
+
+
+
+/****/
+
+
+button {
+    width: 225px; /* Largeur des boutons légèrement augmentée */
+    height: 42px; /* Hauteur ajustée pour un confort visuel */
+    font-size: 16px; /* Texte légèrement plus grand */
+    border-radius: 5px; /* arrondisssement */
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B5A2B; /* Couleur d'interaction subtile */
+}
+
+.button-container {
+    display: flex; /* Active le mode Flexbox */
+    flex-direction: column; /* Aligne les éléments verticalement */
+    gap: 15px; /* Ajoute de l'espace entre eux */
+    margin-top: 20px; /* Espacement avec les autres parties du formulaire */
+    align-items: center; /* Centre horizontalement les éléments */
+}
+
+
+/*dimensionnement*/
+.name, .surname, .email, .password {
+    width: 170px; /* Définit la largeur du champ */
+    height: 10px; /* Ajuste la hauteur du champ */
+    padding: 10px; /* Ajoute de l'espace interne pour plus de confort */
+    font-size: 16px; /* Texte plus lisible */
+    border: 1px solid #ccc; /* Bordure fine et grise */
+    border-radius: 5px; /* Coins arrondis pour un style moderne */
+}
+
+.day, .month, .year {
+    width: 129px; /* Définit la largeur du champ */
+    height: 20px; /* Ajuste la hauteur du champ */
+    font-size: 14px; /* Texte plus lisible */
+    border: 1px solid #ccc; /* Bordure fine et grise */
+    border-radius: 5px; /* Coins arrondis pour un style moderne */
+}
+.name, .surname {
+    margin-top: 20px; /* Garde l'espacement supérieur */
+}
+
+.surname {
+    width: 180px; /* Définit la largeur du champ */
+}
+
+.email, .password {
+    width: 380px; /* Définit la largeur du champ */
+}
+
+.name, .surname, .email, .password {
+    border-radius: 8px; /* Coins plus arrondis */
+}
+
+.genre {
+    display: block; /* Le place sur sa propre ligne */
+    margin-bottom: 1px; /* Ajoute de l'espace sous le label */
+    margin-top: 15px; /* Ajoute de l'espace au-dessus, si nécessaire */
+    font-size: 15px; /* Conserve une police lisible */
+    color: #333; /* Couleur élégante */
+}
+
+
+
+
